@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Conv_Rubik-VariableFont_wght';
+    src: url('../fonts/Rubik-VariableFont_wght.eot');
+    src: local('☺'), url('../fonts/Rubik-VariableFont_wght.woff') format('woff'), url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype'), url('../fonts/Rubik-VariableFont_wght.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_Aleksa-SemiBold';
+    src: url('../fonts/Aleksa-SemiBold.eot');
+    src: local('☺'), url('../fonts/Aleksa-SemiBold.woff') format('woff'), url('../fonts/Aleksa-SemiBold.ttf') format('truetype'), url('../fonts/Aleksa-SemiBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_Aleksa-Regular';
+    src: url('../fonts/Aleksa-Regular.eot');
+    src: local('☺'), url('../fonts/Aleksa-Regular.woff') format('woff'), url('../fonts/Aleksa-Regular.ttf') format('truetype'), url('../fonts/Aleksa-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+

@@ -1,0 +1,213 @@
+@import url("../style/font.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+    color: #000;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Podkova', serif;
+    font-weight: 700;
+}
+a{
+    font-family: 'Podkova', serif;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+/*-----------header-----------*/
+header {
+    padding-top: 50px;
+}
+.header_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_block_nav ul{
+    list-style: none;
+}
+.header_block_nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.current,.header_block_nav ul li:hover{
+    border-bottom: 2px solid black;
+}
+.header_block_nav ul li a{
+    font-size: 18px;
+    font-weight: 700;
+}
+/*-----------End header-----------*/
+
+/*-----------Content-----------*/
+.content{
+    width: 1100px;
+    margin: 0 auto;
+}
+.content_block_heading_first{
+    padding-top: 152px;
+}
+h1{
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+}
+.content_block_contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content_block_contact_list{
+    padding-top: 96px;
+}
+.content_block_contact_list li{
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    list-style-type: none;
+}
+.content_block_contact_form{
+    padding-top: 100px;
+}
+h2{
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+}
+.content_block_form_description_all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content_block_form_description{
+    padding-top: 20px;
+}
+.content_block_form_description p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.content_block_form_href{
+    padding-top: 40px;
+    padding-right: 70px;
+}
+.content_block_form_href a{
+    text-align: center;
+    border: 2px solid #000;
+    padding: 16px 70px 16px 70px;
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content_block_catalog{
+    padding-top: 110px;
+    margin-bottom: 100px;
+}
+h5{
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 18px;
+}
+.content_block_catalog_href_all{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_block_catalog_text{
+    padding-top: 35px;
+    padding-right: 50px;
+}
+.content_block_catalog_text p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.content_block_catalog_href{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content_block_catalog_href a{
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-left: 50px;
+}
+
+/*-----------End content-----------*/
+
+
+
+
+
+
+/*-----------footer-----------*/
+.footer_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer_block_contact_info{
+    margin-left: 10px;
+}
+.footer_block_contact_info p a,
+.footer_block_contact_info p,
+.footer_block_nav nav ul li a
+{
+    font-size: 17px;
+    font-family: 'Podkova', serif;
+}
+.footer_block_nav{
+    margin-left: 92px;
+}
+.footer_block_nav nav{
+    display: flex;
+}
+.footer_block_nav nav ul{
+    margin-right: 50px;
+}
+.footer_block_nav li{
+    margin-bottom: 3px;
+}
+.footer_block_language_enter{
+    padding: 0 22px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.footer_block_language_enter p{
+    font-size: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-family: 'Podkova', serif;
+}
+.current_language, .footer_block_language_enter p:hover{
+    border-bottom: 1px solid black;
+}
+.footer_block_social a{
+    margin-left: 15px;
+}
+/*-----------End footer-----------*/

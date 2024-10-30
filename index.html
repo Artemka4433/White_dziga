@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+    <link rel="stylesheet" type="text/css" href="./style/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./style/slick-theme.css"/>
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header_block">
+            <div class="header_block_logo">
+                <img src="./img/logo.svg" alt="logo">
+            </div>
+            <div class="header_block_nav">
+                <nav>
+                    <ul>
+                        <li class="current"><a href="">Главная</a></li>
+                        <li><a href="production.html">Продукция</a></li>
+                        <li><a href="our-project.html">Проектирование</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="about-us.html">Наша история</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox"/>
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li class="current"><a class="menu__item" href="index.html">Главная</a></li>
+                    <li><a class="menu__item" href="production.html">Продукция</a></li>
+                    <li><a class="menu__item" href="our-project.html">Проектирование</a></li>
+                    <li><a class="menu__item" href="news.html">Новости</a></li>
+                    <li><a class="menu__item" href="about-us.html">Наша история</a></li>
+                    <li ><a class="menu__item" href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="head_block">
+    <div class="container">
+        <div class="header_block_heading">
+            <h1>Место
+                котороеъ
+                запомнят</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+        <div class="slider_wrap">
+            <div class="head_block_slider">
+                <div class="img-slide">
+                    <div class="single-img">
+                        <img src="./img/1.jpg" alt="">
+                    </div>
+                    <div class="single-img">
+                        <img src="./img/1h.jpeg" alt="">
+                    </div>
+                    <div class="single-img">
+                        <img src="./img/2h.jpeg" alt="">
+                    </div>
+                    <div class="single-img">
+                        <img src="./img/3h.jpeg" alt="">
+                    </div>
+                    <div class="single-img">
+                        <img src="./img/4h.jpg" alt="">
+                    </div>
+                    <div class="single-img">
+                        <img src="./img/5h.jpg" alt="">
+                    </div>
+                    <div class="single-img">
+                        <img src="./img/6h.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main_about_us">
+    <div class="container">
+        <div class="main_about_us_wrap">
+            <div class="main_heading">
+                <h2>О нас</h2>
+            </div>
+            <div class="main_about_us_description">
+                <div class="main_about_us_description_col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                    <p>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. </p>
+                </div>
+                <div class="main_about_us_description_col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                    <p>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. </p>
+                </div>
+                <div class="main_about_us_description_col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                    <p>enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main_our_production">
+    <div class="container">
+        <div class="main_heading">
+            <h2>Наша продукция</h2>
+        </div>
+        <div class="main_our_production_tabs">
+                <div class="production_tabs" >
+
+                        <div class="product-single-img " onclick="openCity(event, 'favorites')">
+                            <div class="product_img"><img src="./img/favorites.svg" alt=""></div>
+                            <div class="single-img_description "><p>Избранные</p></div>
+                        </div>
+
+
+                        <div class="product-single-img " onclick="openCity(event, 'bench')">
+                            <div class="product_img"><img src="./img/bench.png" alt=""></div>
+                            <div class="single-img_description"><p>Лавки</p></div>
+                        </div>
+
+                        <div class="product-single-img  " onclick="openCity(event, 'bicyclerack')">
+                            <div class="product_img"><img src="./img/shed.png" alt=""></div>
+                            <div class="single-img_description"><p>Вело <br>стойки</p></div>
+                        </div>
+
+                    <div class="product-single-img  " onclick="openCity(event, 'trash')">
+                        <div class="product_img"><img src="./img/tree.png" alt=""></div>
+                        <div class="single-img_description"><p>Корзины</p></div>
+                    </div>
+
+                        <div class="product-single-img  " onclick="openCity(event, 'gardenfurniture')">
+                            <div class="product_img"><img src="./img/WC.png" alt=""></div>
+                            <div class="single-img_description"><p>Садовая <br>
+                                мебель</p></div>
+                        </div>
+
+
+                        <div class="product-single-img  " onclick="openCity(event, 'hygienestation')">
+                            <div class="product_img"><img src="./img/pet.png" alt=""></div>
+                            <div class="single-img_description"><p>Гигиеническая <br> станция</p></div>
+                        </div>
+
+
+                        <div class="product-single-img  " onclick="openCity(event, 'stay')">
+                            <div class="product_img"><img src="./img/light.png" alt=""></div>
+                            <div class="single-img_description"><p>Остановки <br>
+                                транспорта</p></div>
+
+                    </div>
+                    <div>
+                        <div class="product-single-img  " onclick="openCity(event, 'stands')">
+                            <div class="product_img"><img src="./img/pavillion.png" alt=""></div>
+                            <div class="single-img_description"><p>Стенды</p></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="product-single-img  " onclick="openCity(event, 'stands')">
+                            <div class="product_img"><img src="./img/pavillion.png" alt=""></div>
+                            <div class="single-img_description"><p>Стенды</p></div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="tab_content_wrap">
+                <div id="favorites" class="tabcontent">
+                    <div class="tab_content_block">
+                        <a href="production.html">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/pr1.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="production.html">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/pr2.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="production.html">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/pr3.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="production.html">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/pr4.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="production.html">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/pr5.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="production.html">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item6.png" alt=""></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="bench" class="tabcontent">
+                    <div class="tab_content_block">
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item1.svg" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item2.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item3.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item4.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item5.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item6.png" alt=""></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="bicyclerack" class="tabcontent">
+                    <div class="tab_content_block">
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item1.svg" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item2.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item3.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item4.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item5.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item6.png" alt=""></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="trash" class="tabcontent">
+                    <div class="tab_content_block">
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item1.svg" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item2.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item3.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item4.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item5.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item6.png" alt=""></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="gardenfurniture" class="tabcontent">
+                    <div class="tab_content_block">
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item1.svg" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item2.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item3.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item4.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item5.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item6.png" alt=""></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="hygienestation" class="tabcontent">
+                    <div class="tab_content_block">
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item1.svg" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item2.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item3.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item4.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item5.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item6.png" alt=""></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="stay" class="tabcontent">
+                    <div class="tab_content_block">
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item1.svg" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item2.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item3.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item4.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item5.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item6.png" alt=""></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="stands" class="tabcontent">
+                    <div class="tab_content_block">
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item1.svg" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item2.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item3.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item4.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item5.png" alt=""></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="tab_content_block_item">
+                                <div class="content_block_item"><h3>Spencer CPP</h3></div>
+                                <div class="content_block_img"><img src="./img/item6.png" alt=""></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more_btn">
+            <a href="production.html">Вся продукция</a>
+        </div>
+    </div>
+</section>
+<section class="our_project">
+    <div class="container">
+        <div class="main_heading">
+            <h2>Наши проекты</h2>
+        </div>
+        <div class="project_item">
+            <div class="project_item_img">
+                <img src="./img/project1.png" alt="project">
+            </div>
+            <div class="project_item_description">
+                <h3>Модульна громадська вбиральня, 2020 р.</h3>
+                <p>BilaDzyga втілила проект зі <br> встановлення 5-ти модульних <br>санітарних вузлів та лав вздовж її
+                    <br>пішохідної частини. Відпочинок – це <br>важлива частина нашого життя і він має <br>бути
+                    комфортним.</p>
+            </div>
+        </div>
+        <div class="project_item second_item reverse_news">
+            <div class="project_item_description ">
+                <h3 class="text_right">Модульна громадська вбиральня, 2019 р.</h3>
+                <p class="text_right">Сквер «Прибережний», що у м. Дніпро <br> відтепер комфортний осередок <br>
+                    відпочинку громадян всіх категорій. На
+                    його просторі розміщено дві модульні <br>громадські вбиральні</p>
+            </div>
+            <div class="project_item_img">
+                <img src="./img/project2.png" alt="project">
+            </div>
+        </div>
+        <div class="more_btn">
+            <a href="#">Больше проектов</a>
+        </div>
+    </div>
+</section>
+<section class="main_news">
+    <div class="container">
+        <div class="main_heading">
+            <h2>Новости</h2>
+        </div>
+        <div class="main_news_wrap">
+            <div class="first_main_news">
+                <img src="./img/first_news.png" alt="">
+                <div class="news_header"><h4>Новости</h4></div>
+                <div class="main_news_description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim </p>
+                </div>
+            </div>
+            <div class="second_main_news   ">
+                <img src="./img/second_news.png" alt="">
+                <div class="news_header"><h4>Новости</h4></div>
+                <div class="main_news_description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="catalog">
+    <div class="container">
+        <div class="content_block_catalog">
+            <div class="content_block_catalog_heading">
+                <h2>Каталог</h2>
+            </div>
+            <div class="content_block_catalog_href_all">
+                <div class="content_block_catalog_text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        Dolore, ea reprehenderit amet optio, tempor</p>
+                </div>
+                <div class="content_block_catalog_href">
+                    <div class="all_catalog"><a href="#">Скачать Весь Каталог</a></div>
+                    <div class="toilet_catalog"><a href="#">Скачать катлог Санузлов</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer_block">
+            <div class="footer_block_logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="footer_block_contact_info">
+                <p><a href="tel:+380687932557">068 793-25-57</a></p>
+                <p>пн-пт, с 9:00 до 18:00</p>
+            </div>
+            <div class="footer_block_nav">
+                <nav>
+                    <ul>
+                        <li><a href="">Главная</a></li>
+                        <li><a href="production.html">Продукция</a></li>
+                        <li><a href="our-project.html">Проектирование</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="about-us.html">Наша история</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer_block_language_enter">
+                <p class="current_language">РУС</p>
+                <p>ENG</p>
+                <p>УКР</p>
+            </div>
+            <div class="footer_block_social">
+                <a href="#"><img src="./img/instagram.svg" alt="instagram"></a>
+                <a href="#"><img src="./img/youtube.svg" alt="youtube"></a>
+                <a href="#"><img src="./img/facebook.svg " alt="facebook"></a>
+                <a href="#"><img src="./img/pinterest.svg" alt="pinterest"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script/jquery-3.6.0.min.js"></script>
+<script src="script/slick.min.js"></script>
+<script src="script/main.js"></script>
+</body>
+</html>
